@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Jobcards({ item }) {
   return (
@@ -68,4 +68,4 @@ function Jobcards({ item }) {
   );
 }
 
-export default Jobcards
+export default Jobcards;
