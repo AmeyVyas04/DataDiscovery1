@@ -2,7 +2,7 @@ import React from 'react';
 import createrscorner from "../Assistance/createrscorner.json";
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import Projects from '../components/projects';
+import Projects from '../components/Projects';
 
 function Creativecorner() {
   let projects = createrscorner.filter((data) => data.id > 0);
