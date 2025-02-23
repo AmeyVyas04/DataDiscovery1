@@ -2,9 +2,9 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home/Home";
 import Courses from "./Courses/Courses";
-import Contactus from "./Contactus/Contactus";
+import Footer from "./components/Footer";
 import Navbar from "./components/Nav";
-
+import Creativecorner from "./Creativecorner/Creativecorner";
 export default function App() {
   return (
     <>
@@ -13,8 +13,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/course" element={<Courses />} />
-          <Route path="/contactus" element={<Contactus />} />
+          <Route path="/uploads" element={<Creativecorner />} />
         </Routes>
+       
       </div>
     </>
   );
