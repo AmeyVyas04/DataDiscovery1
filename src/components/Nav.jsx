@@ -111,7 +111,7 @@ function Nav() {
   </svg>
 </label>
   <div className="">
-    <a className="bg-black text-white px-4 py-2 ml-3 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">Login</a>
+    <a className="bg-black text-white px-4 py-2 ml-3 rounded-md hover:bg-slate-800 duration-300 cursor-pointer" href='https://login-eta-lemon.vercel.app/'>Login</a>
   </div>
 </div>
 </div>
